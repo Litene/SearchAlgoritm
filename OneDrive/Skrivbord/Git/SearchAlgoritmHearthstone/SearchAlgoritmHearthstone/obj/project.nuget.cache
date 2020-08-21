@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F3VcYZjx3S1bc+b6c570A2tghryjyt4gpH5jvjPzIUz+CWYXr21a8YRL3IHHy1ea7eHz2EBbDJNHoUR9KtFtZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gusta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
