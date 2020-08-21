@@ -37,3 +37,16 @@ C:\Users\Gusta\OneDrive\Skrivbord\SearchAlgoritmHearthstone\SearchAlgoritmHearth
 C:\Users\Gusta\OneDrive\Skrivbord\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.dll
 C:\Users\Gusta\OneDrive\Skrivbord\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.pdb
 C:\Users\Gusta\OneDrive\Skrivbord\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.genruntimeconfig.cache
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.csprojAssemblyReference.cache
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.AssemblyInfoInputs.cache
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.AssemblyInfo.cs
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.csproj.CoreCompileInputs.cache
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.dll
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.pdb
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\bin\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.exe
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\bin\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.deps.json
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\bin\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.runtimeconfig.json
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\bin\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.runtimeconfig.dev.json
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\bin\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.dll
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\bin\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.pdb
+C:\Users\Gusta\OneDrive\Skrivbord\Git\SearchAlgoritm\OneDrive\Skrivbord\Git\SearchAlgoritmHearthstone\SearchAlgoritmHearthstone\obj\Debug\netcoreapp3.1\SearchAlgoritmHearthstone.genruntimeconfig.cache

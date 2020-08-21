@@ -12,22 +12,20 @@ namespace SearchAlgoritmHearthstone
         public int AttackDamage;
         public bool endTurn;
         public int MaxCardsOnBoard = 10;
+        public Friendly cardToPlay;
 
-        Actions(Enemy Target, Friendly WhatUnitToAttackWith)
+        public Actions(Enemy Target, Friendly WhatUnitToAttackWith)
         {
             AttackDamage = WhatUnitToAttackWith.damage;
             this.Target = Target;
         }
 
-        Actions(List<Friendly> cardsOnHand, List<Friendly> cardsOnBoard)
+        public Actions(Friendly cardToPlay)
         {
-            if (cardsOnBoard.Count < MaxCardsOnBoard)
-            {
-                
-            }
+            this.cardToPlay = cardToPlay;
         }
 
-        Actions(bool EndTurn) 
+        public Actions(bool EndTurn) 
         {
 
         }

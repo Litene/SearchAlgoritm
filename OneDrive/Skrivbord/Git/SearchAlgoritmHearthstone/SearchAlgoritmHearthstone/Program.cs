@@ -15,7 +15,7 @@ namespace SearchAlgoritmHearthstone
         public static List<Enemy> EnemiesOnBoard = new List<Enemy>();
         public static List<Friendly> FriendlysOnBoard = new List<Friendly>();
         public static List<Friendly> FriendlysOnHand = new List<Friendly>();
-        public Queue<Actions> actionsToTake = new Queue<Actions>();
+        public Queue<Actions> CardsToPlay = new Queue<Actions>();
         public Score CurrentScore;
 
 
@@ -25,6 +25,7 @@ namespace SearchAlgoritmHearthstone
         int maxCardsOnHand = 10;
         int cardsOnHand = 0;
 
+       public enum GameSequence { PlayCards = 0, Attack = 1, EndTurn  = 2}
 
         enum GameState { EnemyTurn, YourTurn, GameOver };
 
@@ -34,7 +35,7 @@ namespace SearchAlgoritmHearthstone
             Program Main = new Program();
 
             GameState gameState = GameState.YourTurn;
-
+            GameSequence gameSequence = GameSequence.PlayCards;
 
 
             Random RngGen = new Random();
@@ -51,7 +52,7 @@ namespace SearchAlgoritmHearthstone
             while (!Main.GameIsOver())
             {
                 Console.Clear();
-                FriendlysOnBoard.ForEach(friendly => friendly.attackStatus = AttackStatus.CanAttackCanAttack);
+                FriendlysOnBoard.ForEach(friendly => friendly.attackStatus = AttackStatus.CanAttack);
                 Main.roundCounter++;
                 Main.mana = Main.roundCounter <= 10 ? Main.roundCounter : 10;
                 Main.ClearDeadEnemiesFromBoard(EnemiesOnBoard, FriendlysOnBoard);
@@ -62,7 +63,7 @@ namespace SearchAlgoritmHearthstone
                         FriendlysOnHand.Add(new Friendly(MyStatusEffect.OnHand, false, "Generic Card", RngGen.Next(1, 5), RngGen.Next(1, 5)));
                         Main.cardsOnHand = FriendlysOnHand.Count;
                     }
-                    Main.actionsToTake = sort.CalculateMove(GameState.YourTurn, Main.mana, EnemiesOnBoard, FriendlysOnBoard, FriendlysOnHand);
+                    // = sort.CalculateAttack(GameState.YourTurn, Main.mana, EnemiesOnBoard, FriendlysOnBoard, FriendlysOnHand);
                     Console.WriteLine("Enemy Board State:");
                     Console.WriteLine($"Enemy hero Has {EnemiesOnBoard[0].life} life");
                     foreach (Enemy enemy in EnemiesOnBoard)
@@ -94,15 +95,31 @@ namespace SearchAlgoritmHearthstone
                     {
                         Console.WriteLine($"{friendly.name}, costs: {friendly.manaCost} mana, has {friendly.damage} damage and {friendly.life} life and a score of {friendly.cardScore}");
                     }
-                    Console.WriteLine($"Current mana: {Main.mana}");
+                 
 
+                    Main.CardsToPlay = new Queue<Actions>(sort.CalculateCardsToPlay(FriendlysOnHand, FriendlysOnBoard, ref Main.mana));
+                
 
-
-                    foreach (Friendly friendly in FriendlysOnBoard)
+                    foreach (var item in Main.CardsToPlay)
                     {
-                        Console.WriteLine(friendly.attackStatus);
+                        Console.WriteLine(item.cardToPlay);
+                        Console.WriteLine(Main.mana);
                     }
 
+                    //switch (gameSequence)
+                    //{
+                    //    case GameSequence.PlayCards:
+
+                    //      sort.
+
+                    //        break;
+                    //    case GameSequence.Attack:
+                    //        break;
+                    //    case GameSequence.EndTurn:
+                    //        break;
+                    //    default:
+                    //        break;
+                    //}
 
                     //int damageToTaget;
 

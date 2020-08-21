@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj": {}
+    "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\Git\\SearchAlgoritm\\OneDrive\\Skrivbord\\Git\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj": {
+    "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\Git\\SearchAlgoritm\\OneDrive\\Skrivbord\\Git\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj",
+        "projectUniqueName": "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\Git\\SearchAlgoritm\\OneDrive\\Skrivbord\\Git\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj",
         "projectName": "SearchAlgoritmHearthstone",
-        "projectPath": "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj",
+        "projectPath": "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\Git\\SearchAlgoritm\\OneDrive\\Skrivbord\\Git\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone.csproj",
         "packagesPath": "C:\\Users\\Gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\obj\\",
+        "outputPath": "C:\\Users\\Gusta\\OneDrive\\Skrivbord\\Git\\SearchAlgoritm\\OneDrive\\Skrivbord\\Git\\SearchAlgoritmHearthstone\\SearchAlgoritmHearthstone\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,18 +52,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
